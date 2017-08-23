@@ -1,0 +1,91 @@
+html {
+  min-height: 100%;
+}
+body {
+  background: #dee2e6;
+  color: #343a40;
+  font: 18px/1.5 "Raleway", Helvetica, Arial, sans-serif;
+  min-height: 100%;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: #e9ecef;
+  font-size: 18px;
+  font-variant-caps: small-caps;
+  font-weight: 500;
+  letter-spacing: .1em;
+}
+
+.navbar-default {
+  background-color: rgba(0,0,0,0.0);
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e9ecef;
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+}
+
+#about .page-header {
+  margin-top: 20px;
+}
+
+#banner {
+  background-attachment: fixed;
+	background-color: #666;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../img/splash.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #e9ecef;
+  height: 42em;
+	padding: 10em 0 20em 0;
+	text-align: center;
+}
+
+#banner h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  padding-bottom: 2.5rem;
+}
+
+#banner p {
+  font-size: 20px;
+  padding-bottom: 2rem;
+}
+
+.thumbnail {
+  border-radius: 3px;
+  border: none;
+  -moz-box-shadow:    0 1px 3px 0 #ccc;
+  -webkit-box-shadow: 0 1px 3px 0 #ccc;
+  box-shadow:         0 1px 3px 0 #ccc;
+  overflow: hidden;
+  padding: 0;
+}
+
+.thumbnail>img {
+  width: 100%;
+}
+
+.page-section {
+  background: #fff;
+  -moz-box-shadow:    0 1px 3px 0 #ccc;
+  -webkit-box-shadow: 0 1px 3px 0 #ccc;
+  box-shadow:         0 1px 3px 0 #ccc;
+  overflow: hidden;
+  padding: 2em;
+  margin-top: 1em;
+  border-radius: 3px;
+}
+
+#about {
+  margin-top: -7em;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
